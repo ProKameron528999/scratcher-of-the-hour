@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+Flask = "^2.0.3"
+scratchclient = "^0.5.2"
+scratch2py = "^0.7.1"
+scratchconnect = "^3.4"
+scratchattach = "^0.6.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
